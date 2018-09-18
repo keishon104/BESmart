@@ -1,0 +1,19 @@
+{
+  "name": "besmart",
+  "version": "1.0.0",
+  "description": "BESmart Hackathon code for application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keishon104/BESmart.git"
+  },
+  "author": "FAMU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keishon104/BESmart/issues"
+  },
+  "homepage": "https://github.com/keishon104/BESmart#readme"
+}
