@@ -1,6 +1,9 @@
 # BE Smart Hackathon 2018
 
-One Paragraph of project description goes here
+This repository is meant to team the FAMU team of the BE Smart Hackathon how to create an REST API using node.js, utilize existing code for a frontend and connect to other companies APIs.
+
+##### Senario  
+Create a website that can detect an individual in an picture when uploaded and is then able to send a message to their phone.
 
 ## Getting Started
 
@@ -11,7 +14,8 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-Give examples
+Node.js - Visit https://nodejs.org to download the software.
+Development IDE - Our Team utilized Atom IDE to develop and test our code.
 ```
 
 ### Installing
@@ -21,7 +25,10 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-Give the example
+1. Clone the repository to your local computer.
+2. Use npm install to download any packages needed for development
+3. Input the correct credentials to use the necessary APIs.
+4. Run the program using :"node start" or and any other related command. 
 ```
 
 And repeat
@@ -34,7 +41,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+There is currently no way to run tests on our code.
 
 ### Break down into end to end tests
 
@@ -49,7 +56,7 @@ Give an example
 Explain what these tests test and why
 
 ```
-Give an example
+we used
 ```
 
 ## Deployment
@@ -58,9 +65,9 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [NodeJS](https://nodejs.org/en/) - a JavaScript runtime
+* [ExpressJS](https://expressjs.com/) - a minimal and flexible Node.js web application framework.
+* [Twilio](https://www.twilio.com/) - API used to send SMS to users.
 
 ## Contributing
 
@@ -72,7 +79,16 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Brianna Bowen** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+* **Daroush** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+* **Kiana** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+* **Keishon Smith** - *Initial work* - [GitHub](https://github.com/keishon104)
+
+
+
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
