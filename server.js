@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 
-const port=process.env.port || 3000; //making port
+const port = process.env.PORT || 3000; //making port
 
 app.listen(port, function(){
   console.log('The server is officially running.');//print to the console
