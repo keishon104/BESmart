@@ -4,7 +4,7 @@ const app = express();
 
 const port=process.env.port || 3000; //making port
 
-app.listen(3000, function(){
+app.listen(port, function(){
   console.log('The server is officially running.');//print to the console
 })
 //app.get('/', (req, res) => res.send('We are the champions'))//print to the website
