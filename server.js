@@ -9,7 +9,7 @@ app.listen(port, function(){
 })
 //app.get('/', (req, res) => res.send('We are the champions'))//print to the website
 
-app.get('/', (req, res) => res.sendfile(__dirname+'/client/index.html'));//connects the backend towards the front end. make sure to plus the folder than contain the index.html
+app.get('/', (req, res) => res.sendFile(__dirname+'/client/index.html'));//connects the backend towards the front end. make sure to plus the folder than contain the index.html
 
 //sets view engine
 app.use(express.static(__dirname+'/client'));
